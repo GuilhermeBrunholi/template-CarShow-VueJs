@@ -1,0 +1,134 @@
+/* fonts */
+/* Color */
+nav {
+  background-color: #202020;
+  border-bottom-style: solid;
+  border-bottom-color: #ff0000; }
+
+body {
+  background-color: #202020; }
+
+footer {
+  background-color: #202020;
+  border-top-style: solid;
+  border-top-color: #ff0000;
+  color: #fff; }
+
+footer p {
+  font-size: 10px; }
+
+.carousel img {
+  max-height: 700px; }
+
+.card-index {
+  background-color: #303030;
+  color: #fff; }
+  .card-index img {
+    min-height: 220px;
+    max-height: 220px; }
+  .card-index a {
+    font-family: "Righteous", cursive; }
+
+.card-noticias {
+  background-color: #303030;
+  color: #fff; }
+
+input[type="search"] {
+  background-color: #202020;
+  color: #fff; }
+
+input[type="search"]:focus {
+  background-color: #303030;
+  color: #fff;
+  border-color: #ff0000; }
+
+.title-font {
+  font-family: "Righteous", cursive;
+  font-size: 30px; }
+
+.text-body-titulo {
+  text-align: center;
+  color: #fff; }
+
+a:link,
+a:visited {
+  color: #fff; }
+
+.btn-color {
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 0px 5px 5px 0px; }
+
+.input-color {
+  background-color: #202020;
+  border-radius: 5px 0px 0px 5px;
+  border-color: #ff0000; }
+
+.title-carousel {
+  font-family: "Righteous", cursive;
+  font-size: 30px; }
+
+.copy {
+  color: #7c7c7c; }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #202020; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #360000; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; }
+
+.wrapper {
+  position: relative;
+  padding-top: 5px; }
+
+.scroll {
+  overflow-x: scroll;
+  overflow-y: hidden; }
+
+html {
+  height: 100%;
+  min-height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
+
+footer {
+  margin-top: auto; }
+
+.form-text {
+  font-family: "Righteous", cursive;
+  color: #fff; }
+
+.font-white {
+  color: #fff; }
+
+.box-noticias {
+  background-color: #30303057;
+  top: 210px; }
+  .box-noticias p {
+    text-shadow: 1px 1px 10px #000000; }
+  .box-noticias h5 {
+    text-shadow: 1px 1px 10px #000000; }
+
+.grid-noticias {
+  max-width: 538px; }
+
+.box-center {
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 100px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,178 @@
+/* fonts */
+$font-main: "Righteous", cursive;
+
+/* Color */
+$color-nav: #202020;
+$color-border-nav: #ff0000;
+$color-card: #303030;
+$color-font-body: #fff;
+$color-copyright: #7c7c7c;
+
+nav {
+  background-color: $color-nav;
+  border-bottom-style: solid;
+  border-bottom-color: $color-border-nav;
+}
+
+body {
+  background-color: $color-nav;
+}
+
+footer {
+  background-color: $color-nav;
+  border-top-style: solid;
+  border-top-color: $color-border-nav;
+  color: $color-font-body;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+.carousel img {
+  max-height: 700px;
+}
+
+.card-index {
+  background-color: $color-card;
+  color: $color-font-body;
+
+  img {
+    min-height: 220px;
+    max-height: 220px;
+  }
+
+  a {
+    font-family: $font-main;
+  }
+}
+
+.card-noticias {
+  background-color: $color-card;
+  color: $color-font-body;
+}
+
+input[type="search"] {
+  background-color: $color-nav;
+  color: $color-font-body;
+}
+
+input[type="search"]:focus {
+  background-color: $color-card;
+  color: $color-font-body;
+  border-color: $color-border-nav;
+}
+
+.title-font {
+  font-family: "Righteous", cursive;
+  font-size: 30px;
+}
+
+.text-body-titulo {
+  text-align: center;
+  color: $color-font-body;
+}
+
+a:link,
+a:visited {
+  color: $color-font-body;
+}
+
+.btn-color {
+  background-color: $color-border-nav;
+  color: $color-font-body;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.input-color {
+  background-color: $color-nav;
+  border-radius: 5px 0px 0px 5px;
+  border-color: $color-border-nav;
+}
+
+.title-carousel {
+  font-family: $font-main;
+  font-size: 30px;
+}
+
+.copy {
+  color: $color-copyright;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $color-nav;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #360000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+.wrapper {
+  position: relative;
+  padding-top: 5px;
+}
+
+.scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.form-text {
+  font-family: $font-main;
+  color: $color-font-body;
+}
+
+.font-white {
+  color: $color-font-body;
+}
+
+.box-noticias {
+  background-color: #30303057;
+  top: 210px;
+
+  p {
+    text-shadow: 1px 1px 10px #000000;
+  }
+
+  h5 {
+    text-shadow: 1px 1px 10px #000000;
+  }
+}
+
+.grid-noticias {
+  max-width: 538px;
+}
+
+.box-center {
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
